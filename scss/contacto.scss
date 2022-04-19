@@ -1,0 +1,61 @@
+.contacto-titulo {
+  grid-column: span 1;
+  justify-content: center;
+  text-align: center;
+  border-top: solid #9d4edd;
+  border-bottom: solid #9d4edd;
+  padding: 0.7rem;
+  margin: 2rem auto;
+  width: 200px;
+}
+.contatcto-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 10px;
+  justify-content: space-between;
+}
+.contacto-card {
+  text-align: center;
+  padding: 1rem;
+}
+
+.box-shadow {
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 1);
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.form-contacto > * {
+  margin: 3px;
+  padding: 0.4rem;
+  align-self: center;
+  width: 100%;
+}
+.form-contacto input,
+.form-contacto textarea {
+  font-family: "Raleway", sans-serif;
+  border: thin solid #9d4edd;
+}
+.form-contacto input {
+  border: 0;
+  border-bottom: thin solid #9d4edd;
+}
+
+.form-button {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.3rem;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  background-color: #9d4edd;
+  font-size: 1rem;
+  font-weight: bolder;
+}

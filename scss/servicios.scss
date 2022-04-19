@@ -1,0 +1,30 @@
+.container-servicios {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-between;
+}
+.bg-section {
+  background-color: #f3f3f3;
+}
+.servicios-titulo {
+  grid-column: span 3;
+  text-align: center;
+  border-top: solid #9d4edd;
+  border-bottom: solid #9d4edd;
+  padding: 0.7rem;
+  margin: 2rem auto;
+  width: 200px;
+}
+
+.servicio-card h3 {
+  text-align: center;
+}
+.servicio-card {
+  padding: 1rem;
+}
+
+.servicio-card svg {
+  display: block;
+  margin: 1rem auto;
+  fill: #9d4edd;
+}

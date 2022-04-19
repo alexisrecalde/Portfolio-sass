@@ -1,0 +1,91 @@
+.container-header {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #9d4edd;
+  font-weight: bold;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #9d4edd;
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #10002b;
+  height: auto;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.menu-input,
+.menu-label {
+  display: none;
+}
+.menu {
+  display: flex;
+  font-weight: bold;
+  color: #9d4edd;
+}
+.menu a {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #9d4edd;
+  width: 30%;
+  text-align: center;
+}
+
+.menu a:hover {
+  color: #e0aaff;
+}
+
+.logo a:hover {
+  color: #e0aaff;
+}
+
+.home-boton {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.3rem;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  background-color: #9d4edd;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.home-boton:hover {
+  background-color: #240046;
+}
+
+.home-container-img {
+  background-image: url("/assets/stock-vector-website-programming-and-coding-web-development-and-coding-d-vector-illustrations-1906572394.jpg");
+  background-attachment: fixed;
+}
+
+.home-img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-oscuro;
+}
+
+.home-container-texto {
+  color: white;
+  font-size: 6vh;
+}
