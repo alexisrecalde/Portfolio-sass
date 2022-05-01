@@ -1,12 +1,5 @@
 .contacto-titulo {
-  grid-column: span 1;
-  justify-content: center;
-  text-align: center;
-  border-top: solid #9d4edd;
-  border-bottom: solid #9d4edd;
-  padding: 0.7rem;
-  margin: 2rem auto;
-  width: 200px;
+  @extend .portfolio-titulo;
 }
 .contatcto-cards {
   display: grid;
@@ -52,10 +45,10 @@
   display: inline-block;
   border-radius: 0.3rem;
   padding: 10px;
-  width: 180px;
   text-align: center;
   color: white;
   background-color: #9d4edd;
   font-size: 1rem;
   font-weight: bolder;
+  @include size-btn(auto, 150px);
 }

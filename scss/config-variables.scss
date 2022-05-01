@@ -26,3 +26,8 @@ img {
 $img: url("assets/stock-vector-website-programming-and-coding-web-development-and-coding-d-vector-illustrations-1906572394.jpg");
 $color-oscuro: rgba(0, 0, 0, 0.5);
 $color-card-info: rgba(36, 0, 70, 0.85);
+
+@mixin size-btn($h, $w) {
+  height: $h;
+  width: $w;
+}

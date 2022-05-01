@@ -7,13 +7,7 @@
   background-color: #f3f3f3;
 }
 .servicios-titulo {
-  grid-column: span 3;
-  text-align: center;
-  border-top: solid #9d4edd;
-  border-bottom: solid #9d4edd;
-  padding: 0.7rem;
-  margin: 2rem auto;
-  width: 200px;
+  @extend .portfolio-titulo;
 }
 
 .servicio-card h3 {

@@ -378,16 +378,17 @@ img {
   text-decoration: none;
   display: inline-block;
   border-radius: 0.3rem;
-  padding: 10px;
-  width: 180px;
+  padding: 5px;
   text-align: center;
   color: white;
-  background-color: #9d4edd;
+  background-color: #240046;
   font-size: 2rem;
-  font-weight: bolder; }
+  font-weight: bolder;
+  height: 50px;
+  width: 180px; }
 
 .home-boton:hover {
-  background-color: #240046; }
+  background-color: #9d4edd; }
 
 .home-container-img {
   background-image: url("/assets/stock-vector-website-programming-and-coding-web-development-and-coding-d-vector-illustrations-1906572394.jpg");
@@ -428,7 +429,7 @@ img {
   justify-content: space-between;
   grid-template-columns: repeat(3, 1fr); }
 
-.portfolio-titulo {
+.portfolio-titulo, .servicios-titulo, .contacto-titulo {
   grid-column: span 3;
   justify-content: center;
   text-align: center;
@@ -482,15 +483,6 @@ img {
 .bg-section {
   background-color: #f3f3f3; }
 
-.servicios-titulo {
-  grid-column: span 3;
-  text-align: center;
-  border-top: solid #9d4edd;
-  border-bottom: solid #9d4edd;
-  padding: 0.7rem;
-  margin: 2rem auto;
-  width: 200px; }
-
 .servicio-card h3 {
   text-align: center; }
 
@@ -501,16 +493,6 @@ img {
   display: block;
   margin: 1rem auto;
   fill: #9d4edd; }
-
-.contacto-titulo {
-  grid-column: span 1;
-  justify-content: center;
-  text-align: center;
-  border-top: solid #9d4edd;
-  border-bottom: solid #9d4edd;
-  padding: 0.7rem;
-  margin: 2rem auto;
-  width: 200px; }
 
 .contatcto-cards {
   display: grid;
@@ -552,12 +534,13 @@ img {
   display: inline-block;
   border-radius: 0.3rem;
   padding: 10px;
-  width: 180px;
   text-align: center;
   color: white;
   background-color: #9d4edd;
   font-size: 1rem;
-  font-weight: bolder; }
+  font-weight: bolder;
+  height: auto;
+  width: 150px; }
 
 .footer {
   background-color: #10002b;
@@ -637,7 +620,7 @@ img {
   .container-porfolio {
     display: grid;
     grid-template-columns: 1fr; }
-  .portfolio-titulo {
+  .portfolio-titulo, .servicios-titulo, .contacto-titulo {
     grid-column: 1/2; }
   /************************SERVICIOS ***************************************/
   .container-servicios {

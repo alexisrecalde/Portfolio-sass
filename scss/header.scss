@@ -57,17 +57,17 @@
   text-decoration: none;
   display: inline-block;
   border-radius: 0.3rem;
-  padding: 10px;
-  width: 180px;
+  padding: 5px;
   text-align: center;
   color: white;
-  background-color: #9d4edd;
+  background-color: #240046;
   font-size: 2rem;
   font-weight: bolder;
+  @include size-btn(50px, 180px);
 }
 
 .home-boton:hover {
-  background-color: #240046;
+  background-color: #9d4edd;
 }
 
 .home-container-img {
